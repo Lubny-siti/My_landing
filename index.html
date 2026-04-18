@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Створення Web-landing</title>
+    <style>/* Основні налаштування */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Шапка сайту */
+header {
+    background: #2c3e50;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+/* Секції */
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+/* Таблиця цін */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f8f8;
+}
+
+/* Кнопка зв'язку */
+.btn {
+    display: inline-block;
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
+.header-logo {
+    width: 60px; /* Тут можна змінити розмір картинки */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+header {
+    position: relative; /* Це потрібно, щоб картинка не тікала за межі шапки */
+}
+
+</style>
+    
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="pegas.png" alt="Пегас" class="header-logo">
+    
+        <h1>Web-landing</h1>
+        <p>Створення сайтів-візиток та швидких рішень для бізнесу</p>
+    </div>
+</header>
+
+<main class="container">
+    <section id="about">
+        <h2>Про послугу</h2>
+        <p>Пропоную розробку сучасних односторінкових сайтів (лендінгів). Ідеально підходить для приватних майстрів, малого бізнесу та особистих брендів.</p>
+    </section>
+
+    <section id="pricing">
+        <h2>Вартість розробки</h2>
+        <table>
+            <tr>
+                <th>Послуга</th>
+                <th>Ціна</th>
+            </tr>
+            <tr>
+                <td>Базовий сайт-візитка (мій дизайн)</td>
+                <td>від 500 грн</td>
+            </tr>
+            <tr>
+                <td>Розробка за дизайном клієнта</td>
+                <td>+300 грн</td>
+            </tr>
+            <tr>
+                <td>Додавання кожної фотографії клієнта</td>
+                <td>100 грн/шт</td>
+            </tr>
+            <tr>
+                <td>Прив'язка посилань (Viber, Telegram, OLX)</td>
+                <td>100 грн/шт</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Замовити сайт</h2>
+        <p>Натисніть кнопку нижче, щоб обговорити ваш проект:</p>
+        <a href="https://t.me/Artur_Volodymyrovych_Lytvyn" class="btn">Написати в Telegram</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Артур Литвин. Всі права захищені.</p>
+</footer>
+
+</body>
+</html>
